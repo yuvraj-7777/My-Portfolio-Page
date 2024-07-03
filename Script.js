@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+        // sticky navbar  scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
@@ -23,11 +23,11 @@ $(document).ready(function(){
     });
 
     $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
+        // applying  smooth scroll on menu items click
         $('html').css("scrollBehavior", "smooth");
     });
 
-    // toggle menu/navbar script
+    // toggle menu/ script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
